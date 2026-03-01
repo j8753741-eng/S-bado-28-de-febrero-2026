@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carta de Amor</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+<style>
+body{
+    margin:0;
+    padding:0;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: radial-gradient(circle at top, #1a002b, #000010 70%);
+    overflow-x:hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Estrellas */
+body::before{
+    content:"";
+    position:fixed;
+    width:100%;
+    height:100%;
+    background: url('https://www.transparenttextures.com/patterns/stardust.png');
+    opacity:0.3;
+    animation: moveStars 60s linear infinite;
+}
+
+@keyframes moveStars{
+    from{background-position:0 0;}
+    to{background-position:1000px 1000px;}
+}
+
+.carta{
+    width:90%;
+    max-width:900px;
+    background: linear-gradient(145deg, #ffffff, #f8f3ff);
+    border-radius:20px;
+    padding:60px 50px;
+    box-shadow:0 0 40px rgba(255,0,150,0.4),
+               0 0 80px rgba(180,0,255,0.2);
+    position:relative;
+    z-index:1;
+    animation: aparecer 2s ease;
+}
+
+@keyframes aparecer{
+    from{opacity:0; transform:translateY(30px);}
+    to{opacity:1; transform:translateY(0);}
+}
+
+.carta::before{
+    content:"";
+    position:absolute;
+    top:-3px;
+    left:-3px;
+    right:-3px;
+    bottom:-3px;
+    border-radius:25px;
+    background: linear-gradient(45deg, #ff00cc, #8a2be2, #ff66ff);
+    z-index:-1;
+    filter:blur(20px);
+    opacity:0.6;
+}
+
+h1{
+    font-family:'Playfair Display', serif;
+    text-align:center;
+    font-size:40px;
+    margin-bottom:40px;
+    color:#5e0080;
+    text-shadow:0 0 10px rgba(180,0,255,0.4);
+}
+
+p{
+    font-size:18px;
+    line-height:1.9;
+    color:#333;
+    margin-bottom:22px;
+    text-align:justify;
+}
+
+.firma{
+    margin-top:50px;
+    text-align:right;
+    font-family:'Playfair Display', serif;
+    font-size:22px;
+    color:#8a2be2;
+}
+
+.corazon{
+    position:fixed;
+    color:rgba(255,105,180,0.7);
+    font-size:20px;
+    animation: flotar 10s linear infinite;
+}
+
+@keyframes flotar{
+    from{transform:translateY(100vh) scale(0.8);}
+    to{transform:translateY(-10vh) scale(1.2);}
+}
+</style>
+</head>
+
+<body>
+
+<div class="carta">
+<h1>Mi Amor mio</h1>
+
+<p>Esta noche, sábado 28 de febrero de 2026, el cielo parece haberse vestido especialmente para nosotros. Las estrellas brillan con una intensidad distinta, como si supieran que hay un corazón escribiendo con cada latido tu nombre. El aire es más suave, la luna parece más cercana, y el silencio de la noche no es vacío… está lleno de ti.</p>
+
+<p>No sabes cuánto he esperado este momento para dedicarte palabras que intenten, aunque sea un poco, acercarse a todo lo que siento por ti. Porque lo que siento no es simple cariño, no es solo enamoramiento… es algo profundo, intenso, inmenso. Es un amor que me atraviesa el alma y se queda a vivir ahí.</p>
+
+<p>Desde que llegaste a mi vida, todo cambió. Mis días tienen más sentido, mis planes tienen más dirección y mis sueños tienen más color. Antes caminaba… ahora vuelo. Antes respiraba… ahora suspiro por ti. Antes existía… ahora vivo, porque te amo.</p>
+
+<p>Eres esa persona que logró tocar lo más delicado de mi corazón sin romperlo, sino sanándolo. Con tu voz calmas mis tormentas. Con tu risa haces que mis preocupaciones se vuelvan pequeñas. Con tu mirada me haces sentir invencible. No sé cómo lo haces, pero cada vez que estoy contigo, el mundo se ordena.</p>
+
+<p>Me encanta la forma en que sonríes cuando algo te hace feliz. Me encanta la manera en que frunces un poco el ceño cuando estás concentrada. Me encanta cómo tus ojos brillan cuando hablas de algo que amas. Me encanta cómo tu presencia llena cualquier espacio, cómo tu energía cambia cualquier ambiente. Me encantas tú… completa, real, imperfectamente perfecta.</p>
+
+<p>Esta noche quiero decirte que no solo te amo por lo que eres conmigo, sino por quien eres como persona. Por tu nobleza, por tu sensibilidad, por tu fuerza silenciosa. Te admiro. Te respeto. Te deseo. Te elijo.</p>
+
+<p>Y cuando digo que te deseo, no hablo solo del deseo que enciende la piel cuando imagino tus manos entrelazadas con las mías, o tus labios rozando los míos en un beso que detiene el tiempo. Hablo del deseo profundo de compartir contigo cada amanecer, cada logro, cada caída, cada risa, cada lágrima. Deseo despertar a tu lado y sentir que el mundo puede esperar porque lo tengo todo en tu abrazo.</p>
+
+<p>Quiero aprender cada rincón de tu corazón. Quiero ser el refugio donde descanses cuando el mundo pese demasiado. Quiero ser la voz que te recuerde lo valiosa que eres cuando dudes. Quiero que cuando pienses en futuro, me veas caminando contigo, paso a paso, sin soltar tu mano jamás.</p>
+
+<p>Si pudiera abrazarte ahora mismo, lo haría con tanta intensidad que sentirías cómo mi corazón late fuerte solo por ti. Si pudiera besarte esta noche, sería un beso lento, profundo, lleno de promesas. Un beso que diga sin palabras todo lo que siento y todo lo que planeo cumplir a tu lado.</p>
+
+<p>Eres mi sueño favorito hecho realidad. Eres la casualidad más hermosa que se convirtió en destino. Eres la razón por la que ahora entiendo que el amor verdadero no es perfecto… es constante, es apasionado, es decidido.</p>
+
+<p>Te prometo algo esta noche: voy a cuidar este amor como el tesoro más grande de mi vida. No voy a dejar que la rutina apague la chispa que nos une. No voy a permitir que el orgullo gane cuando haya desacuerdos. Voy a elegir el diálogo, la paciencia y la ternura. Porque lo nuestro vale demasiado.</p>
+
+<p>Prometo escucharte incluso cuando no sepas cómo explicar lo que sientes. Prometo abrazarte incluso cuando digas que estás bien pero tus ojos pidan consuelo. Prometo apoyarte en cada meta, en cada proyecto, en cada locura que quieras intentar. Y prometo celebrar tus triunfos como si fueran míos, porque tu felicidad es parte de la mía.</p>
+
+<p>Quiero envejecer contigo. Quiero que un día miremos atrás y recordemos este 28 de febrero de 2026 como una de esas noches en las que reafirmamos que lo nuestro no es pasajero. Que lo nuestro no es frágil. Que lo nuestro es fuerte, es real, es eterno en intención.</p>
+
+<p>Si algún día la vida nos pone pruebas, quiero que recuerdes esto: no estoy aquí por comodidad, estoy aquí por convicción. No te amo por costumbre, te amo por decisión. No estoy contigo por un momento… estoy contigo porque mi corazón te reconoció como su hogar.</p>
+
+<p>Eres mi calma y mi tormenta. Eres mi ternura y mi pasión. Eres mi paz y mi fuego.</p>
+
+<p>Y esta noche, mientras el mundo duerme, yo solo puedo pensar en ti. En tu piel, en tu voz, en tu risa, en tus sueños. Pienso en lo afortunado que soy de poder llamarte “mi amor”. Pienso en lo bendecido que me siento de tenerte en mi vida.</p>
+
+<p>Si pudiera resumir todo lo que siento en una sola frase, sería esta: contigo lo quiero todo. Contigo quiero el presente, el futuro y cada instante intermedio. Contigo quiero construir, aprender, crecer y amar sin límites.</p>
+
+<p>Te amo con un amor que no conoce medida. Te amo con un amor que no se cansa. Te amo con un amor que cada día se vuelve más profundo, más intenso, más verdadero.</p>
+
+<p>Y esta noche, mi vida, te vuelvo a elegir.<br>
+Con todo mi corazón.<br>
+Con toda mi alma.<br>
+Con todo mi ser.</p>
+
+<div class="firma">
+Para siempre tuyo.
+  <p><strong>JUAN KALETH MENDOZA PRIMERA 💜</strong></p>
+</div>
+
+</div>
+
+<script>
+function crearCorazon(){
+    const corazon = document.createElement("div");
+    corazon.classList.add("corazon");
+    corazon.innerHTML = "❤";
+    corazon.style.left = Math.random() * 100 + "vw";
+    corazon.style.animationDuration = (6 + Math.random() * 6) + "s";
+    document.body.appendChild(corazon);
+
+    setTimeout(() => {
+        corazon.remove();
+    }, 10000);
+}
+
+setInterval(crearCorazon, 800);
+</script>
+
+</body>
+  </html>
